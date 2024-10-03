@@ -1,0 +1,9 @@
+copy con 1.txt
+Бакаева
+Беленова
+Корнилова
+Романенко
+Шуйская
+
+sort 1.txt > 1sort.txt
+doskey /history > history_1laba.txt
