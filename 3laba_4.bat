@@ -1,6 +1,8 @@
 @echo off
 
-set /p a=enter a: 
-set /p b=enter b: 
-xcopy %a% %b% /S
+set /a k=0
+
+FOR /R %1 %%f IN (.) DO set /a k = k +1
+echo %k%
+
 pause
