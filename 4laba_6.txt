@@ -1,0 +1,1 @@
+Get-Process |Sort-Object -Property ProcessName| Convertto-html -Property Name, PriorityClass, ProductVersion, Id > 6.html
